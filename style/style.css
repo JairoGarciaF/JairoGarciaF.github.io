@@ -219,7 +219,7 @@ footer a{
 }
 #footerItems ul li{
     display: inline-block;    
-    margin: 25px 70px 25px 0px;
+    margin: 25px 50px 25px 0px;
 }
 #footerItems ul li a:hover{
     color: #FFFF00;
