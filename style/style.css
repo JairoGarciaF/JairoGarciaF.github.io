@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* HEADER */
+header{
+    height: 70px;
+    background-color: #A3A656;
+}
+.menu{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+nav{    
+    margin-left: 70px;    
+    float: left;
+}
+nav ul li{
+    display: inline-block;    
+    margin: 25px 30px 25px 0px;
+}
+nav ul li a:hover{
+    color: #FFFF00;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+}
+.header div{
+    display:flex;
+    align-items: center;
+    float: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+.header span{
+    margin: 0px 5px;
+}
+.header img{
+    margin: 0px 5px;
+}
+#login{
+    margin: 11.5px 10px;
+}
+#language{
+    margin: 18.5px 10px;
+}
+/* SECTION */
+section a{
+    color: #fff;
+    text-decoration: none;
+}
+.bg{    
+    background-image: url('/images/main.png');
+    background-size: cover;
+    background-position: center;
+    height: 840px;
+}
+.bg h1{
+    float: left;
+    margin-top: 180px;
+    margin-left: 200px;
+    font-family: 'Romanesco', cursive;
+    font-size: 96px;
+    font-weight: 500;
+}
+.bg p{
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-left: 200px;
+    top: 480px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    width: 600px;
+}
+.reserv{
+    display:flex;
+    align-items: center;
+    justify-content: center;  
+    background-color: #F2F6F6;
+    height: 100px;   
+}
+.reserv div span, input{
+    float: left;
+    margin: 0px 15px;
+}
+.reserv div input{
+    border: #fff;
+    border-radius: 15px;
+    height: 60px;
+    padding: 0px 20px;
+    color: #9E9A9A;
+}
+.reserv div{
+    display:flex;
+    align-items: center;
+}
+
+#cardBox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.massage{
+    float: left;
+    margin: 100px 67px;
+}
+.massage h2:nth-child(1){
+    padding: 25px 0px;
+    background: #A3A656;
+    border-radius: 15px 15px 0px 0px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #FFF;
+}
+.massage img{
+    margin: 0px;
+    width: 100%;
+}
+.massage p{
+    padding: 15px 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.price{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    float: left;
+    margin: 10px 20px;
+}
+.small_btn{
+    padding: 10px 25px;
+    margin: 10px 0px;
+}
+.button:hover{
+    background-color: #384001;
+}
+.button{
+    float: right;   
+    background: #A3A656;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 35px;    
+}
+.big_btn{
+    padding: 20px 60px;
+    margin: 10px 0px;
+}
+.suscriptionBox{
+    height: 770px;
+    background-color: #F2F6F6;
+    
+}
+.suscriptionBox h2:nth-child(1){
+    padding: 40px 0px;
+}
+.suscriptionBox h2{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 20px 0px;    
+}
+#suscriptionCard{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.tier{
+    float: left;
+    padding: 0px 30px;
+    margin: 50px 67px;
+}
+.frame{
+    background-color: #FFF;
+    border-radius: 360px;
+    border: 10px solid #384001;
+    height: 255px;
+    width: 255px;
+}
+.tier img{
+    width: 125px;
+    height: 125px;
+    position: relative;
+    margin: 0px;
+    top: 25%;
+    left: 25%;
+}
+.tier ul{  
+    padding: 20px 0px 10px 70px; 
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.tier ul li{
+    margin: 5px 0px;
+}
+/* FOOTER */
+footer{
+    height: 97px;
+    background-color: #384001;
+}
+footer a{
+    text-decoration: none;
+    color: #A3A656;
+}
+#footerItems{
+    float: left;
+    margin-left: 70px;
+}
+#footerItems ul{
+    padding: 13.5px 0px;
+}
+#footerItems ul li{
+    display: inline-block;    
+    margin: 25px 70px 25px 0px;
+}
+#footerItems ul li a:hover{
+    color: #FFFF00;
+}
+#socialMedia{
+    padding: 26px 70px;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+#socialMedia span{
+    color: #A3A656;
+}
+#socialMedia img{
+    margin-left: 40px;
+}
