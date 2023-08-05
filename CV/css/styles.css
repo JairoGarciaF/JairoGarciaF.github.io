@@ -1,0 +1,25 @@
+
+
+/* //-- yui-grids style overrides -- */
+body { font-family: Georgia; color: #444; }
+#inner { padding: 10px 80px; margin: 80px auto; background: #fff; border: solid #666; border-width: 8px; }
+
+/* //-- header, body, footer -- */
+.hd-h2{
+    text-transform: uppercase; letter-spacing: 2px;
+}
+.hd-h1{
+    font-size: 48px; text-transform: uppercase; letter-spacing: 3px;
+}
+
+
+
+/* //-- core typography and style -- */
+h2 { font-size: 152% }
+h3, h4 { font-size: 122%; }
+h1, h2, h3, h4 { color: #000000; }
+p { font-size: 100%; line-height: 18px; padding-right: 3em; }
+
+.first h2 {font-weight:bold; font-style: italic; }
+
+
