@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rubik&family=Zeyada&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.font-quick {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.font-rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+aside {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #03121d;
+    padding-top: 20px;
+}
+
+aside a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #D1D4C9;
+    display: block;
+}
+
+aside a:hover {
+    background-color: #556E53;
+}
+
+span {
+    font-family: 'Rubik', sans-serif;
+    color: #D1D4C9;
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    color: #556E53;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+p {
+
+    font-family: 'Quicksand', sans-serif;
+    color: #D1D4C9;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    height: 15rem;
+    width: 15rem;
+    align-self: center;
+}
+
+h2 {
+    padding-top: 35px;
+    font-family: 'Quicksand', sans-serif;
+    color: #556E53;
+    font-weight: 100;
+    font-size: 2rem;
+}
+
+.name {
+    font-family: 'Zeyada', cursive;
+    color: #556E53;
+    font-weight: 500;
+    font-size: 7rem;
+}
+
+.content {
+    margin-left: 300px;
+    padding: 20px;
+}
