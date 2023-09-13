@@ -25,11 +25,13 @@ aside {
 }
 
 aside a {
-    padding: 15px 25px;
+    padding: 15px 0px;
     text-decoration: none;
     font-size: 20px;
     color: #D1D4C9;
-    display: block;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    text-align: center;
 }
 
 aside a:hover {
@@ -65,9 +67,23 @@ section {
     justify-content: center;
 }
 
+.button {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #D1D4C9;
+    width: fit-content;
+    background-color: #556E53;
+    border: solid #556E53;
+    border-radius: 15px;
+}
+
+.button:hover {
+    background-color: #425541;
+    border-color: #425541;
+}
+
 img {
-    height: 15rem;
-    width: 15rem;
     align-self: center;
 }
 
@@ -83,7 +99,7 @@ h2 {
     font-family: 'Zeyada', cursive;
     color: #556E53;
     font-weight: 500;
-    font-size: 7rem;
+    font-size: 8rem;
 }
 
 .content {

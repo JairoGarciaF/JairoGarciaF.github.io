@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Site</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/ae4e5d458c.js" crossorigin="anonymous"></script>
 </head>
 
 <body style="background-color: #041a29;">
-    <aside>
-        <a href="#start" class="font-quick">Logo</a>
-        <a href="#about" class="font-quick">About</a>
-        <a href="#skills" class="font-quick">My Skills</a>
-        <a href="#contact" class="font-quick">Contact</a>
-        <a href="#" class="font-quick">Social</a>
+    <aside style="display: flex; flex-direction: column;">
+        <a href="#start" style="display: block;">Home</a>
+        <a href="#about" style="display: block;">About</a>
+        <a href="#skills" style="display: block;">My Skills</a>
+        <a href="#contact" style="display: block;">Contact</a>
+        <div style="display: flex; justify-content: space-evenly;">
+            <a href="https://www.linkedin.com/in/jairo-garcía-253980151/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/JairoGarciaF"><i class="fa-brands fa-github"></i></a>
+        </div>
     </aside>
     <main class="content">
         <section id="start">
@@ -24,23 +28,23 @@
             <h2>Full stack web developer</h2>
         </section>
         <section id="about">
-            <h1>About me</h1>
-            <img src="img/Photo Jairo.png" alt="A photograph of Jairo">
+            <h1>About me <i class="fa-solid fa-address-card" style="margin-left: 20px;"></i></h1>
+            <img src="img/Photo Jairo.png" alt="A photograph of Jairo" style="height: 15rem; width: 15rem;">
             <p>A 7th semester student of Software Engineering at 'Escuela Politécnica Nacional' university,
                 with
                 knowledge in HTML,
                 CSS, SQL, and Python. Willing to continuously learn and work hard.</p>
         </section>
         <section id="skills">
-            <h1>My Skills</h1>
+            <h1>My Skills <i class="fa-solid fa-dumbbell" style="margin-left: 20px;"></i></h1>
+            <img src="img/skills.jpg" alt="An image of a computer with code in the screen" style="width: 20rem;">
             <p>Since I got this interest to code, I have decided to dedicate my life coding. At the university, I found
                 my favorite area in the development world, and that is the creation and design of web applications.</p>
         </section>
         <section id="contact">
-            <div>
-                <span>I'm </span><span class="name">Jairo</span><span>, a software engineer</span>
-            </div>
-            <h2>Full stack web developer</h2>
+            <h1>Get in Touch <i class="fa-solid fa-envelope" style="margin-left: 20px;"></i></h1>
+            <p>If you want to talk about business or just want to chat, feel free to email me!</p>
+            <a href="mailto:jairo.dgf@gmail.com" class="button">Contact Me</a>
         </section>
     </main>
 
